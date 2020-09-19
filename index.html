@@ -6,14 +6,14 @@
 </head>
 <body>
 
-<form id="register_form" >
+<form id="register_form" method="POST" action="https://leadgenerationgkn-developer-edition.ap16.force.com/GetData/services/apexrest/myservice/" >
         <p><label for="name">First Name:</label>
         <input type="text" name="name" id="name"></p>
 
         <button value="Submit" type="submit" onclick="submitform()">Submit</button>
 </form>
 <script type="text/javascript">
-	 const serialize_form = form => JSON.stringify(
+	/* const serialize_form = form => JSON.stringify(
   Array.from(new FormData(form).entries())
        .reduce((m, [ key, value ]) => Object.assign(m, { [key]: value }), {})
 );
@@ -39,7 +39,7 @@ xmlhttp.send(json);
       alert(data)
     }
   }); */
-});
+}); */
 </script>
 
 </body>
