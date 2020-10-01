@@ -71,7 +71,7 @@ fieldset {
 #lead_form input[type="tel"],
 #lead_form input[type="url"],
 #lead_form textarea {
-  width: 50%;
+  width: 100%;
   border: 1px solid #ccc;
   background: #FFF;
   margin: 0 0 5px;
